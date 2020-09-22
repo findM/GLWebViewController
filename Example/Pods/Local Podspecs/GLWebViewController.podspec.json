@@ -1,0 +1,22 @@
+{
+  "name": "GLWebViewController",
+  "version": "0.1.0",
+  "summary": "A short description of GLWebViewController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/findm/GLWebViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "findm": "chenguanglin@bishijie.com"
+  },
+  "source": {
+    "git": "https://github.com/findm/GLWebViewController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GLWebViewController/Classes/**/*"
+}

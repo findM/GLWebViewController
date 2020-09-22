@@ -1,0 +1,6 @@
+framework module GLWebViewController {
+  umbrella header "GLWebViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

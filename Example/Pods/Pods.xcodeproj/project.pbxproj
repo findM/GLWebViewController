@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03233CF74A95A7223C0E4DD06B7EB8C4 /* Pods-GLWebViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F09B20C549C5A9F8EC6E452202F2CEA3 /* Pods-GLWebViewController_Tests-dummy.m */; };
+		1E57BB926FB225BFD01B5847C73ED828 /* GLWebViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 004D52A9EAF14BA1775C2BC7DEF405CC /* GLWebViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		377DB7B528CC07D17E469808E9099031 /* Pods-GLWebViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16F2A574A034DFC894E31632E7DC0852 /* Pods-GLWebViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BD7400E04A47D03A0E8A4DDA4C47F1C /* Pods-GLWebViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A3AFCE2C7300456748FB267913C435 /* Pods-GLWebViewController_Example-dummy.m */; };
+		61EAEA811C63914CF09D7B86CFBF5B1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		752C029EC5C93EBEF7D6828E257A5224 /* GLWebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D87D8F905D91F3E51F3613CA5D57F6 /* GLWebViewController-dummy.m */; };
+		7B0830276F849A97E0DF9C3E7E354221 /* Pods-GLWebViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D3F6FC40D81791351782C81C0F18DD /* Pods-GLWebViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C93D14CE68CBF294BF32804C61D8A22A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBFACD282C8A72B1422F01FD1BD971E /* ReplaceMe.swift */; };
+		CBE671A8AF49E898A8535AC7B8E871EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FEEEDBAFA9CB975B317C0EB28679B39D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3E4779B0D615CB633E54C36B4CBFD19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E5F4D5FC50C89C789B725D22AD5BC34;
+			remoteInfo = GLWebViewController;
+		};
+		F956CD25B79D383D92AB4B704EC1954D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26611E7548780168F001E13B8A0F17AC;
+			remoteInfo = "Pods-GLWebViewController_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004D52A9EAF14BA1775C2BC7DEF405CC /* GLWebViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLWebViewController-umbrella.h"; sourceTree = "<group>"; };
+		033C13BDD5A265C495651C37CAF5330E /* Pods_GLWebViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GLWebViewController_Example.framework; path = "Pods-GLWebViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F2A574A034DFC894E31632E7DC0852 /* Pods-GLWebViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GLWebViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		1A694FBFE5665034DF71FC3AF270A53C /* Pods-GLWebViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GLWebViewController_Example.modulemap"; sourceTree = "<group>"; };
+		2318FA4A2F08449913FED601BCBFA210 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2C1982E182E6ABC5536DF5B90DB6BF11 /* Pods-GLWebViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLWebViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3083190DC3D40A46F9EB4AE05BDAAC0E /* Pods-GLWebViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GLWebViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		397DDDA0CF86BB98C054C729BBBAF8C2 /* Pods-GLWebViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLWebViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		50A4C188FEB6A051E617DBA84CFCDAC4 /* GLWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GLWebViewController.framework; path = GLWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE5CC1C38BA87A4B8E46A39EC2F50E1 /* GLWebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLWebViewController-prefix.pch"; sourceTree = "<group>"; };
+		69A52F9AF9FE0860F622D5E394F1906E /* GLWebViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GLWebViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6CBFACD282C8A72B1422F01FD1BD971E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GLWebViewController/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		7BDFB4F2042B76B9D9FF60F56DFF5AF6 /* Pods-GLWebViewController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLWebViewController_Tests-Info.plist"; sourceTree = "<group>"; };
+		846503B73FA19CF314780CED86386445 /* Pods-GLWebViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GLWebViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8801AB8AAE5C7220275BA937DA1562E7 /* Pods-GLWebViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLWebViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		89905C423CE73802BB0971B211786251 /* Pods-GLWebViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GLWebViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A32A53AD0368A3223E0C0D9429600823 /* GLWebViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GLWebViewController.modulemap; sourceTree = "<group>"; };
+		A3A3AFCE2C7300456748FB267913C435 /* Pods-GLWebViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GLWebViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		A863EDE3CDFEC54D8304CF4EB31ECBD2 /* GLWebViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLWebViewController.debug.xcconfig; sourceTree = "<group>"; };
+		B203BD01F35D90E39A831F67FA0D8F3D /* Pods-GLWebViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLWebViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B6D3F6FC40D81791351782C81C0F18DD /* Pods-GLWebViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GLWebViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C1DC0D6A41FF2C50E676AF2DCEF80DE5 /* Pods-GLWebViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLWebViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7D8E7503E66326D4BCD4DD85A9D8F0E /* GLWebViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLWebViewController.release.xcconfig; sourceTree = "<group>"; };
+		CC942DDDCB85FC286D9E38CC12DCC93A /* Pods-GLWebViewController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLWebViewController_Example-Info.plist"; sourceTree = "<group>"; };
+		D46F7EFCC6C1239584401B608130F791 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D6C557F1AE00B7EB57F0674965E14556 /* Pods-GLWebViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GLWebViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E0593DC302ED8615AAC33D5686741DAC /* Pods-GLWebViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLWebViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9F2D802A43C3ABD44C14D87C61F0492 /* Pods_GLWebViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GLWebViewController_Tests.framework; path = "Pods-GLWebViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09B20C549C5A9F8EC6E452202F2CEA3 /* Pods-GLWebViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GLWebViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		F3F7916A7EE0197DA030177D920060DC /* GLWebViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GLWebViewController-Info.plist"; sourceTree = "<group>"; };
+		F7D87D8F905D91F3E51F3613CA5D57F6 /* GLWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GLWebViewController-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3517397FA5837F02341514D46A84610F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEEDBAFA9CB975B317C0EB28679B39D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6E346F41CD917565CC20FB1CEA1CB60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE671A8AF49E898A8535AC7B8E871EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2608D81E17B2A16C23D8AFBC003E2BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61EAEA811C63914CF09D7B86CFBF5B1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1379089CE43A34E08415EC357F7101B3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F427673F5D4FE1066E284CDBD2AFAB79 /* GLWebViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		504399C940F47FFF9F61CBC19C3BBCA7 /* Pods-GLWebViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3083190DC3D40A46F9EB4AE05BDAAC0E /* Pods-GLWebViewController_Tests.modulemap */,
+				D6C557F1AE00B7EB57F0674965E14556 /* Pods-GLWebViewController_Tests-acknowledgements.markdown */,
+				8801AB8AAE5C7220275BA937DA1562E7 /* Pods-GLWebViewController_Tests-acknowledgements.plist */,
+				F09B20C549C5A9F8EC6E452202F2CEA3 /* Pods-GLWebViewController_Tests-dummy.m */,
+				7BDFB4F2042B76B9D9FF60F56DFF5AF6 /* Pods-GLWebViewController_Tests-Info.plist */,
+				B6D3F6FC40D81791351782C81C0F18DD /* Pods-GLWebViewController_Tests-umbrella.h */,
+				C1DC0D6A41FF2C50E676AF2DCEF80DE5 /* Pods-GLWebViewController_Tests.debug.xcconfig */,
+				B203BD01F35D90E39A831F67FA0D8F3D /* Pods-GLWebViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-GLWebViewController_Tests";
+			path = "Target Support Files/Pods-GLWebViewController_Tests";
+			sourceTree = "<group>";
+		};
+		955E8A337C104AB468147185BC769559 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				69A52F9AF9FE0860F622D5E394F1906E /* GLWebViewController.podspec */,
+				2318FA4A2F08449913FED601BCBFA210 /* LICENSE */,
+				D46F7EFCC6C1239584401B608130F791 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A175E294EEFDE9860450B68F3637C798 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D041022156931F5337A82EBF373B17D3 /* Pods-GLWebViewController_Example */,
+				504399C940F47FFF9F61CBC19C3BBCA7 /* Pods-GLWebViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1379089CE43A34E08415EC357F7101B3 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DD3B16009EC92E3235400FA89C5B353A /* Products */,
+				A175E294EEFDE9860450B68F3637C798 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D041022156931F5337A82EBF373B17D3 /* Pods-GLWebViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1A694FBFE5665034DF71FC3AF270A53C /* Pods-GLWebViewController_Example.modulemap */,
+				89905C423CE73802BB0971B211786251 /* Pods-GLWebViewController_Example-acknowledgements.markdown */,
+				E0593DC302ED8615AAC33D5686741DAC /* Pods-GLWebViewController_Example-acknowledgements.plist */,
+				A3A3AFCE2C7300456748FB267913C435 /* Pods-GLWebViewController_Example-dummy.m */,
+				846503B73FA19CF314780CED86386445 /* Pods-GLWebViewController_Example-frameworks.sh */,
+				CC942DDDCB85FC286D9E38CC12DCC93A /* Pods-GLWebViewController_Example-Info.plist */,
+				16F2A574A034DFC894E31632E7DC0852 /* Pods-GLWebViewController_Example-umbrella.h */,
+				2C1982E182E6ABC5536DF5B90DB6BF11 /* Pods-GLWebViewController_Example.debug.xcconfig */,
+				397DDDA0CF86BB98C054C729BBBAF8C2 /* Pods-GLWebViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-GLWebViewController_Example";
+			path = "Target Support Files/Pods-GLWebViewController_Example";
+			sourceTree = "<group>";
+		};
+		D127E13CA097D4AA854F98B09F2DF869 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A32A53AD0368A3223E0C0D9429600823 /* GLWebViewController.modulemap */,
+				F7D87D8F905D91F3E51F3613CA5D57F6 /* GLWebViewController-dummy.m */,
+				F3F7916A7EE0197DA030177D920060DC /* GLWebViewController-Info.plist */,
+				5FE5CC1C38BA87A4B8E46A39EC2F50E1 /* GLWebViewController-prefix.pch */,
+				004D52A9EAF14BA1775C2BC7DEF405CC /* GLWebViewController-umbrella.h */,
+				A863EDE3CDFEC54D8304CF4EB31ECBD2 /* GLWebViewController.debug.xcconfig */,
+				C7D8E7503E66326D4BCD4DD85A9D8F0E /* GLWebViewController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GLWebViewController";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD3B16009EC92E3235400FA89C5B353A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50A4C188FEB6A051E617DBA84CFCDAC4 /* GLWebViewController.framework */,
+				033C13BDD5A265C495651C37CAF5330E /* Pods_GLWebViewController_Example.framework */,
+				E9F2D802A43C3ABD44C14D87C61F0492 /* Pods_GLWebViewController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F427673F5D4FE1066E284CDBD2AFAB79 /* GLWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6CBFACD282C8A72B1422F01FD1BD971E /* ReplaceMe.swift */,
+				955E8A337C104AB468147185BC769559 /* Pod */,
+				D127E13CA097D4AA854F98B09F2DF869 /* Support Files */,
+			);
+			name = GLWebViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		569A1078A936381D90229F50C43C45BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377DB7B528CC07D17E469808E9099031 /* Pods-GLWebViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AC1D74802D770851928B46EC82D9D4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E57BB926FB225BFD01B5847C73ED828 /* GLWebViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF40344CDFE9803436959A17D89A1C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0830276F849A97E0DF9C3E7E354221 /* Pods-GLWebViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26611E7548780168F001E13B8A0F17AC /* Pods-GLWebViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ACDEA2C69595F71B722586AA56D732D /* Build configuration list for PBXNativeTarget "Pods-GLWebViewController_Example" */;
+			buildPhases = (
+				569A1078A936381D90229F50C43C45BE /* Headers */,
+				9699C0E1EB1B1ABCC9A4DC9475BC97D5 /* Sources */,
+				3517397FA5837F02341514D46A84610F /* Frameworks */,
+				AD240F82CCF4F6965EB4335C8894FEBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8725944E2FB4EB075CC4EE6CEB27B8B2 /* PBXTargetDependency */,
+			);
+			name = "Pods-GLWebViewController_Example";
+			productName = "Pods-GLWebViewController_Example";
+			productReference = 033C13BDD5A265C495651C37CAF5330E /* Pods_GLWebViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E5F4D5FC50C89C789B725D22AD5BC34 /* GLWebViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE90D382DFE330BD4F7F8B87BAE6054 /* Build configuration list for PBXNativeTarget "GLWebViewController" */;
+			buildPhases = (
+				8AC1D74802D770851928B46EC82D9D4F /* Headers */,
+				1C2917FFA3F95CD763E5DD99D890DC9C /* Sources */,
+				F2608D81E17B2A16C23D8AFBC003E2BB /* Frameworks */,
+				49312C8E793C1293D88C8F1CF03BBABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLWebViewController;
+			productName = GLWebViewController;
+			productReference = 50A4C188FEB6A051E617DBA84CFCDAC4 /* GLWebViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC99211180D98E8A18FEC1A4405F3677 /* Pods-GLWebViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 971E531C9A60C6125E7DA5EFDB48E7D2 /* Build configuration list for PBXNativeTarget "Pods-GLWebViewController_Tests" */;
+			buildPhases = (
+				DAF40344CDFE9803436959A17D89A1C7 /* Headers */,
+				CF4CB7FCA02DA0A73E44A16169C7C36B /* Sources */,
+				C6E346F41CD917565CC20FB1CEA1CB60 /* Frameworks */,
+				26BE616B231F3B0494C9373FE5A31EA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B80F4E65FCE66CF91D9C7E0F488E1AA /* PBXTargetDependency */,
+			);
+			name = "Pods-GLWebViewController_Tests";
+			productName = "Pods-GLWebViewController_Tests";
+			productReference = E9F2D802A43C3ABD44C14D87C61F0492 /* Pods_GLWebViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DD3B16009EC92E3235400FA89C5B353A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E5F4D5FC50C89C789B725D22AD5BC34 /* GLWebViewController */,
+				26611E7548780168F001E13B8A0F17AC /* Pods-GLWebViewController_Example */,
+				AC99211180D98E8A18FEC1A4405F3677 /* Pods-GLWebViewController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26BE616B231F3B0494C9373FE5A31EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49312C8E793C1293D88C8F1CF03BBABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD240F82CCF4F6965EB4335C8894FEBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C2917FFA3F95CD763E5DD99D890DC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752C029EC5C93EBEF7D6828E257A5224 /* GLWebViewController-dummy.m in Sources */,
+				C93D14CE68CBF294BF32804C61D8A22A /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9699C0E1EB1B1ABCC9A4DC9475BC97D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD7400E04A47D03A0E8A4DDA4C47F1C /* Pods-GLWebViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4CB7FCA02DA0A73E44A16169C7C36B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03233CF74A95A7223C0E4DD06B7EB8C4 /* Pods-GLWebViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B80F4E65FCE66CF91D9C7E0F488E1AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GLWebViewController_Example";
+			target = 26611E7548780168F001E13B8A0F17AC /* Pods-GLWebViewController_Example */;
+			targetProxy = F956CD25B79D383D92AB4B704EC1954D /* PBXContainerItemProxy */;
+		};
+		8725944E2FB4EB075CC4EE6CEB27B8B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GLWebViewController;
+			target = 6E5F4D5FC50C89C789B725D22AD5BC34 /* GLWebViewController */;
+			targetProxy = E3E4779B0D615CB633E54C36B4CBFD19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2AC7CBFC3EC818CF73C2A905A9BAD7F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1DC0D6A41FF2C50E676AF2DCEF80DE5 /* Pods-GLWebViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GLWebViewController_Tests/Pods-GLWebViewController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GLWebViewController_Tests/Pods-GLWebViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C6E27B684FF6CDBF0BBE1E424885977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A863EDE3CDFEC54D8304CF4EB31ECBD2 /* GLWebViewController.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GLWebViewController/GLWebViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GLWebViewController/GLWebViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GLWebViewController/GLWebViewController.modulemap";
+				PRODUCT_MODULE_NAME = GLWebViewController;
+				PRODUCT_NAME = GLWebViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		426F86A775543C17DC6DE40726FD3BD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 397DDDA0CF86BB98C054C729BBBAF8C2 /* Pods-GLWebViewController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GLWebViewController_Example/Pods-GLWebViewController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GLWebViewController_Example/Pods-GLWebViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		99EB2D31603926CAFDECA41AAECFC77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C1982E182E6ABC5536DF5B90DB6BF11 /* Pods-GLWebViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GLWebViewController_Example/Pods-GLWebViewController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GLWebViewController_Example/Pods-GLWebViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E46F731E6C548D9953EDF2D9740E6572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7D8E7503E66326D4BCD4DD85A9D8F0E /* GLWebViewController.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GLWebViewController/GLWebViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GLWebViewController/GLWebViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GLWebViewController/GLWebViewController.modulemap";
+				PRODUCT_MODULE_NAME = GLWebViewController;
+				PRODUCT_NAME = GLWebViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED4FA3CB8803EDF6C496FB38329D4045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B203BD01F35D90E39A831F67FA0D8F3D /* Pods-GLWebViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GLWebViewController_Tests/Pods-GLWebViewController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GLWebViewController_Tests/Pods-GLWebViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ACDEA2C69595F71B722586AA56D732D /* Build configuration list for PBXNativeTarget "Pods-GLWebViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99EB2D31603926CAFDECA41AAECFC77D /* Debug */,
+				426F86A775543C17DC6DE40726FD3BD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		971E531C9A60C6125E7DA5EFDB48E7D2 /* Build configuration list for PBXNativeTarget "Pods-GLWebViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC7CBFC3EC818CF73C2A905A9BAD7F2 /* Debug */,
+				ED4FA3CB8803EDF6C496FB38329D4045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFE90D382DFE330BD4F7F8B87BAE6054 /* Build configuration list for PBXNativeTarget "GLWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6E27B684FF6CDBF0BBE1E424885977 /* Debug */,
+				E46F731E6C548D9953EDF2D9740E6572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - GLWebViewController (0.1.0)
+
+DEPENDENCIES:
+  - GLWebViewController (from `../`)
+
+EXTERNAL SOURCES:
+  GLWebViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GLWebViewController: 5ecdf5ee74e794d2099cda9f49a88275982f8a4c
+
+PODFILE CHECKSUM: 4b3dd1a1257393b0860054240f75d324cafcc009
+
+COCOAPODS: 1.9.3
